@@ -22,7 +22,6 @@ nav{
     padding-top: 10px;
     }
 
-
 nav img{
     width: 3rem; ;
 }
@@ -32,3 +31,28 @@ nav ul{
     list-style: none; 
     justify-content: space-around;
 }
+
+.maincontainer{
+    height: 85vh;
+}
+
+.bottomBar{
+    position: sticky;
+    height: 70px;
+    background-color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    }
+
+#myProgress{
+    width: 100vh;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 10px ;
+    cursor: pointer;
+    }
